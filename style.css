@@ -1,0 +1,62 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #ebebeb;
+  /* background-image: url("https://wallpapercave.com/wp/wp5038731.jpg"); */
+}
+
+h1 {
+  margin: 10px auto;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 2px red, 0 0 25px cyan, 0 0 5px darkblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 75px;
+  border: 2px double rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+img {
+  height: 65vh;
+  width: 16vw;
+  border-radius: 10px;
+}
+
+.imgWrap {
+  border-radius: 10px;
+  box-shadow: 0 0 10px cyan;
+  margin: 12px auto;
+}
+
+.btn {
+  text-align: center;
+  margin: 16px 75px;
+  border: 2px double rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button {
+  height: 10vh;
+  width: 55vh;
+  color: white;
+  margin: 16px auto;
+  text-shadow: 3px 3px 2px red, 0 0 25px cyan, 0 0 5px darkblue;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  border: 3px solid white;
+}
+
+button:hover {
+  background-color: #f4ffff;
+  border: 3px solid #9dffff;
+}
